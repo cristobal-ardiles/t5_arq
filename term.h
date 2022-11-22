@@ -1,0 +1,11 @@
+char readChar();
+void showChar(char c);
+void showStr(const char *s);
+void showUInt(unsigned num);
+void showInt(int num);
+void showULongLong(unsigned long long num);
+void showLongLong(long long num);
+void showHexInt(unsigned x);
+void showHexa(void *ptr, int nbytes);
+int readLine(char *lin, int tam);
+void stop(int rc);
