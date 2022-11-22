@@ -349,7 +349,7 @@ int main(int argc, char *argv[]) {
   // Agregue aca el codigo para agregar la instruccion swrpc
   // se puede hacer en un ciclo del reloj, pero puede hacerlo en 2 ciclos
   defInst("swrpc",0xa);
-  sig(CSAY | )
+  sig(CSAY | CSAX | CSWR | )
   // =====================================
   // Caution: do not modify after this line
   // =====================================
